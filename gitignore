@@ -1,0 +1,43 @@
+# Ignore folders
+train/
+val/
+test/
+outpaint_models/
+
+# Ignore specific file
+dataset.zip
+
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model weights and large files
+*.h5
+*.hdf5
+*.pkl
+*.ckpt
+*.pth
+*.pt
+
+# Image files (adjust as needed)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+
+# Other temporary files
+*.log
+*.tmp
+*.out
+*.swp
+.DS_Store
+
+# Virtual environment
+venv/
+.env/
